@@ -2,7 +2,7 @@ name: CI devops 2021 EPF
 on:
   #to begin you want to launch this job in main and develop
   push:
-    branches: master
+    branches: #TODO
   pull_request:
 
 jobs:
@@ -16,6 +16,7 @@ jobs:
 #enable to setup jdk 11
       - name: Set up JDK 11
         #TODO
+        
       
       #finally build your app with the latest command
       - name: Build and test with Maven
