@@ -62,5 +62,4 @@ jobs:
           push: True
           # DO the same for httpd
      
-     
 
